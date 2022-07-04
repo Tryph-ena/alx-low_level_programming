@@ -1,14 +1,18 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
-* main - entry block
-* description - prints the lowercase alphabet in reverse
-* Return: 0
-**/
+* main - Entry point
+*description -prints all single digit numbers of base 10 starting from 0
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
-char c;
-for (c = 'z' ; c >= 'a'; c--)
-putchar(c);
+int d;
+for (d = '0'; d <= '9'; d++)
+putchar(d);
 putchar('\n');
 return (0);
 }
+
+
