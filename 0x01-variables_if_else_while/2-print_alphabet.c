@@ -1,14 +1,16 @@
 #include <stdio.h>
 /**
- *main - Entry point
- * program that prints the alphabet in lowercase
- * Return:0
+ *main - entry point
+ *program that prints the alphabet in lowercase
+ *return: 0
  */
 int main(void)
 {
-char c;
-for (c = 'a'; c <= 'z'; c++)
-putchar(c);
-putchar('\n')
+char Capital_letter = 'A';
+char Small_letter = 'a';
+while (Small_letter <= 'z')
+putchar(Small_letter);
+Small_letter++;
+putchar('\n');
 return (0);
 }
