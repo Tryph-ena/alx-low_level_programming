@@ -1,19 +1,24 @@
 #include <stdio.h>
 /**
- *main - entry
- *prints alphabets with lowercase, then uppercase
- *return: 0
- */ int n;
-int main(void);
+ *main - Entry Point
+ *
+ * Return: Always 0 (success)
+ *
+ */
+int main(void)
 {
-char c;
-char C;
+char Capital_letter = 'A';
+char Small_letter = 'a';
+while (Small_letter <= 'z')
 {
-for (c = 'a'; c <= 'z'; c++)
-putchar(c);
-for (C = 'A'; C <= 'Z'; C++)
-putchar(C);
-putchar('\n');
+putchar(Small_letter);
+Small_letter++;
 }
+while (Capital_letter <= 'Z')
+{
+putchar(Capital_letter);
+Capital_letter++;
+}
+putchar('\n');
 return (0);
 }
