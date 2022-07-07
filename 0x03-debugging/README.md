@@ -1,1 +1,1 @@
-the state of debugging babyyyy!!!
+about debugging
