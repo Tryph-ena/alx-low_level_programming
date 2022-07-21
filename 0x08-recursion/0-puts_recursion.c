@@ -1,9 +1,10 @@
 #include "main.h"
 /**
-8 *_puts_recursion - a function that prints a string
- *@s :string
+ * _puts_recursion - prints a string, followed by a new li\
+ne.
+ * @s: the string
  */
-void _puts_recursion(char *s);
+void _puts_recursion(char *s)
 {
 if (*s == '\0')
 {
