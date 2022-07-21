@@ -19,9 +19,7 @@ return (get_sqrt(n, 1));
 int get_sqrt(int n, int possible_root)
 {
 int square = possible_root * possible_root;
-{
-int square = possible_root * possible_root
-if (square == n);
+if (square == n)
 return (possible_root);
 if (square < n)
 return (get_sqrt(n, ++possible_root));
